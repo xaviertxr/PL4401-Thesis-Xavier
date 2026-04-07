@@ -56,6 +56,10 @@ install.packages(c("bootnet", "qgraph", "psychonetrics", "mice",
                    "dplyr", "tidyr", "ggplot2"))
 ```
 
+## How to run
+Run the full script in R. Output CSV is saved to your working directory.
+Runtime is approximately 30-60 minutes depending on your machine.
+
 ------------------------------------------------------------------------------------------------------------
 
 # 3. Results-HT
@@ -80,6 +84,10 @@ Data processing and results summarisation script
 ```r
 install.packages(c("dplyr", "tidyr", "tidyverse", "DT"))
 ```
+## How to run
+Ensure all `sims_batch_X.txt` files are in your working directory, 
+then run the script. The final summary CSV is saved to your working directory 
+and can be loaded directly into the Shiny dashboard.
 
 ------------------------------------------------------------------------------------------------------------
 
@@ -97,5 +105,4 @@ and 10 missingness levels (0-90%).
 ```r
 install.packages(c("shiny", "ggplot2", "plotly", "dplyr", "tidyr", "DT"))
 ```
-
-
+------------------------------------------------------------------------------------------------------------
